@@ -60,6 +60,7 @@
             this.getCountriesButton.TabIndex = 2;
             this.getCountriesButton.Text = "Get Countries";
             this.getCountriesButton.UseVisualStyleBackColor = true;
+            this.getCountriesButton.Click += new System.EventHandler(this.getCountriesButton_Click);
             // 
             // exitButton
             // 
@@ -69,6 +70,7 @@
             this.exitButton.TabIndex = 3;
             this.exitButton.Text = "Exit";
             this.exitButton.UseVisualStyleBackColor = true;
+            this.exitButton.Click += new System.EventHandler(this.exitButton_Click);
             // 
             // Form1
             // 
@@ -81,6 +83,7 @@
             this.Controls.Add(this.countriesListBox);
             this.Name = "Form1";
             this.Text = "South America";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
