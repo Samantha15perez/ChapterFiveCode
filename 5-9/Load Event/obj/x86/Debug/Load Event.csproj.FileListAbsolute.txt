@@ -7,3 +7,11 @@ K:\Books\C#\Student Sample Programs\Chap05\Load Event\Load Event\obj\x86\Debug\G
 K:\Books\C#\Student Sample Programs\Chap05\Load Event\Load Event\obj\x86\Debug\GenerateResource.write.1.tlog
 K:\Books\C#\Student Sample Programs\Chap05\Load Event\Load Event\obj\x86\Debug\Load Event.exe
 K:\Books\C#\Student Sample Programs\Chap05\Load Event\Load Event\obj\x86\Debug\Load Event.pdb
+C:\Users\Cyberadmin\Desktop\ChapterFiveCode\5-9\Load Event\bin\Debug\Load Event.exe
+C:\Users\Cyberadmin\Desktop\ChapterFiveCode\5-9\Load Event\bin\Debug\Load Event.pdb
+C:\Users\Cyberadmin\Desktop\ChapterFiveCode\5-9\Load Event\obj\x86\Debug\Load_Event.Form1.resources
+C:\Users\Cyberadmin\Desktop\ChapterFiveCode\5-9\Load Event\obj\x86\Debug\Load_Event.Properties.Resources.resources
+C:\Users\Cyberadmin\Desktop\ChapterFiveCode\5-9\Load Event\obj\x86\Debug\Load Event.csproj.GenerateResource.Cache
+C:\Users\Cyberadmin\Desktop\ChapterFiveCode\5-9\Load Event\obj\x86\Debug\Load Event.csproj.CoreCompileInputs.cache
+C:\Users\Cyberadmin\Desktop\ChapterFiveCode\5-9\Load Event\obj\x86\Debug\Load Event.exe
+C:\Users\Cyberadmin\Desktop\ChapterFiveCode\5-9\Load Event\obj\x86\Debug\Load Event.pdb
