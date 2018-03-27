@@ -42,6 +42,10 @@ namespace Ending_Balance
                     {
                         //add this months interest to the balance
                         balance = balance + (INTEREST_RATE * balance);
+
+                        //display this month's ending balance
+                        detailListBox.Items.Add("The ending balance " + "for month " + count + " is " + balance.ToString("c"));
+
                         //add one to the loop counter
                         count = count + 1;
                     }
@@ -64,11 +68,12 @@ namespace Ending_Balance
 
         private void clearButton_Click(object sender, EventArgs e)
         {
-            //clear the textboxes and the endingbalancelabel control
+            //clear the textboxes, the endingbalancelabel control, and the listbox
             startingBalTextBox.Text = "";
             monthsTextBox.Text = "";
             endingBalanceLabel.Text = "";
-
+            detailListBox.Items.Clear();
+           
             //reset the focus
             startingBalTextBox.Focus();
 
@@ -81,6 +86,11 @@ namespace Ending_Balance
         }
 
         private void endingBalanceLabel_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void detailListBox_SelectedIndexChanged(object sender, EventArgs e)
         {
 
         }
