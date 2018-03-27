@@ -1,0 +1,16 @@
+C:\Users\Cyberadmin\Desktop\ChapterFiveCode\5-4\Friend File\bin\Debug\Friend File.exe
+C:\Users\Cyberadmin\Desktop\ChapterFiveCode\5-4\Friend File\bin\Debug\Friend File.pdb
+C:\Users\Cyberadmin\Desktop\ChapterFiveCode\5-4\Friend File\obj\x86\Debug\Friend_File.Form1.resources
+C:\Users\Cyberadmin\Desktop\ChapterFiveCode\5-4\Friend File\obj\x86\Debug\Friend_File.Properties.Resources.resources
+C:\Users\Cyberadmin\Desktop\ChapterFiveCode\5-4\Friend File\obj\x86\Debug\Friend File.csproj.GenerateResource.Cache
+C:\Users\Cyberadmin\Desktop\ChapterFiveCode\5-4\Friend File\obj\x86\Debug\Friend File.csproj.CoreCompileInputs.cache
+C:\Users\Cyberadmin\Desktop\ChapterFiveCode\5-4\Friend File\obj\x86\Debug\Friend File.exe
+C:\Users\Cyberadmin\Desktop\ChapterFiveCode\5-4\Friend File\obj\x86\Debug\Friend File.pdb
+C:\Users\Cyberadmin\Desktop\ChapterFiveCode\5-5\Friend File\obj\x86\Debug\Friend_File.Form1.resources
+C:\Users\Cyberadmin\Desktop\ChapterFiveCode\5-5\Friend File\obj\x86\Debug\Friend_File.Properties.Resources.resources
+C:\Users\Cyberadmin\Desktop\ChapterFiveCode\5-5\Friend File\obj\x86\Debug\Friend File.csproj.GenerateResource.Cache
+C:\Users\Cyberadmin\Desktop\ChapterFiveCode\5-5\Friend File\obj\x86\Debug\Friend File.csproj.CoreCompileInputs.cache
+C:\Users\Cyberadmin\Desktop\ChapterFiveCode\5-5\Friend File\obj\x86\Debug\Friend File.exe
+C:\Users\Cyberadmin\Desktop\ChapterFiveCode\5-5\Friend File\obj\x86\Debug\Friend File.pdb
+C:\Users\Cyberadmin\Desktop\ChapterFiveCode\5-5\Friend File\bin\Debug\Friend File.exe
+C:\Users\Cyberadmin\Desktop\ChapterFiveCode\5-5\Friend File\bin\Debug\Friend File.pdb
