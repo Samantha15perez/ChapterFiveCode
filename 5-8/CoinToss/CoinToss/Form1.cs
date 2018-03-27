@@ -19,28 +19,37 @@ namespace CoinToss
 
         private void tossButton_Click(object sender, EventArgs e)
         {
-            //variable to indicate which side is up
-            int sideUp;
 
-            //create a random object
-            Random rand = new Random();
-
-            //get a random integer in the range of 0 through 1
-            //0 means tails up, 1 means heads up
-            sideUp = rand.Next(2);
-
-            //Display the side that is up
-            if (sideUp == 0)
+            try
             {
-                //display tails up
-                tailsPictureBox.Visible = true;
-                headsPictureBox.Visible = false;
+                //variable to indicate which side is up
+                int sideUp;
+
+                //create a random object
+                Random rand = new Random();
+
+                //get a random integer in the range of 0 through 1
+                //0 means tails up, 1 means heads up
+                sideUp = rand.Next(2);
+
+                //Display the side that is up
+                if (sideUp == 0)
+                {
+                    //display tails up
+                    tailsPictureBox.Visible = true;
+                    headsPictureBox.Visible = false;
+                }
+                else
+                {
+                    //display heads up
+                    headsPictureBox.Visible = true;
+                    tailsPictureBox.Visible = false;
+                }
             }
-            else
+            catch (Exception ex)
             {
-                //display heads up
-                headsPictureBox.Visible = true;
-                tailsPictureBox.Visible = false;
+                //display an error message
+                MessageBox.Show(ex.Message);
             }
         }
 

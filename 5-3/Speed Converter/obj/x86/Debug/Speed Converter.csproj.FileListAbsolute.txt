@@ -6,3 +6,4 @@ C:\Users\Cyberadmin\Desktop\ChapterFiveCode\5-3\Speed Converter\obj\x86\Debug\Sp
 C:\Users\Cyberadmin\Desktop\ChapterFiveCode\5-3\Speed Converter\obj\x86\Debug\Speed Converter.csproj.CoreCompileInputs.cache
 C:\Users\Cyberadmin\Desktop\ChapterFiveCode\5-3\Speed Converter\obj\x86\Debug\Speed Converter.exe
 C:\Users\Cyberadmin\Desktop\ChapterFiveCode\5-3\Speed Converter\obj\x86\Debug\Speed Converter.pdb
+C:\Users\Cyberadmin\Desktop\ChapterFiveCode\5-3\Speed Converter\obj\x86\Debug\Speed Converter.csprojResolveAssemblyReference.cache
