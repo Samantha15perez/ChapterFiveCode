@@ -60,6 +60,7 @@
             this.calculateButton.TabIndex = 2;
             this.calculateButton.Text = "Read Sales && Calculate Total";
             this.calculateButton.UseVisualStyleBackColor = true;
+            this.calculateButton.Click += new System.EventHandler(this.calculateButton_Click);
             // 
             // exitButton
             // 
@@ -69,6 +70,7 @@
             this.exitButton.TabIndex = 3;
             this.exitButton.Text = "Exit";
             this.exitButton.UseVisualStyleBackColor = true;
+            this.exitButton.Click += new System.EventHandler(this.exitButton_Click);
             // 
             // Form1
             // 
@@ -81,6 +83,7 @@
             this.Controls.Add(this.outputDescriptionLabel);
             this.Name = "Form1";
             this.Text = "Total Sales";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

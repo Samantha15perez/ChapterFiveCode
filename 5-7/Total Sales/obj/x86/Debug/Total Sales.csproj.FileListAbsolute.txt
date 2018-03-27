@@ -1,0 +1,8 @@
+C:\Users\Cyberadmin\Desktop\ChapterFiveCode\5-7\Total Sales\bin\Debug\Total Sales.exe
+C:\Users\Cyberadmin\Desktop\ChapterFiveCode\5-7\Total Sales\bin\Debug\Total Sales.pdb
+C:\Users\Cyberadmin\Desktop\ChapterFiveCode\5-7\Total Sales\obj\x86\Debug\Total_Sales.Form1.resources
+C:\Users\Cyberadmin\Desktop\ChapterFiveCode\5-7\Total Sales\obj\x86\Debug\Total_Sales.Properties.Resources.resources
+C:\Users\Cyberadmin\Desktop\ChapterFiveCode\5-7\Total Sales\obj\x86\Debug\Total Sales.csproj.GenerateResource.Cache
+C:\Users\Cyberadmin\Desktop\ChapterFiveCode\5-7\Total Sales\obj\x86\Debug\Total Sales.csproj.CoreCompileInputs.cache
+C:\Users\Cyberadmin\Desktop\ChapterFiveCode\5-7\Total Sales\obj\x86\Debug\Total Sales.exe
+C:\Users\Cyberadmin\Desktop\ChapterFiveCode\5-7\Total Sales\obj\x86\Debug\Total Sales.pdb
