@@ -41,6 +41,7 @@
             this.exitButton.TabIndex = 5;
             this.exitButton.Text = "Exit";
             this.exitButton.UseVisualStyleBackColor = true;
+            this.exitButton.Click += new System.EventHandler(this.exitButton_Click);
             // 
             // displayButton
             // 
@@ -50,6 +51,7 @@
             this.displayButton.TabIndex = 4;
             this.displayButton.Text = "Display Speeds";
             this.displayButton.UseVisualStyleBackColor = true;
+            this.displayButton.Click += new System.EventHandler(this.displayButton_Click);
             // 
             // outputListBox
             // 
