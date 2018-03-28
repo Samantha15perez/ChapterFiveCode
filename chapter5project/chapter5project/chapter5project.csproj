@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{75C185D9-E798-4963-A830-02066DF594FD}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>chapter5project</RootNamespace>
+    <AssemblyName>chapter5project</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\5-1\Ending Balance\Ending Balance.csproj">
+      <Project>{ce3fce43-183a-4464-b2f1-5ebcee4484e3}</Project>
+      <Name>Ending Balance</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\5-3\Speed Converter\Speed Converter.csproj">
+      <Project>{9ccc1384-5624-4ec7-9fa2-012ed36c9d39}</Project>
+      <Name>Speed Converter</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\5-4\Friend File\Friend File.csproj">
+      <Project>{0a14e470-1e23-4436-be7e-a5e9862e2b9f}</Project>
+      <Name>Friend File</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\5-6\South America\South America.csproj">
+      <Project>{475452d1-1fcf-4ccf-8807-db12d2dfde90}</Project>
+      <Name>South America</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\5-7\Total Sales\Total Sales.csproj">
+      <Project>{c100fe3f-9f32-4f54-8ab8-e286f767b2cd}</Project>
+      <Name>Total Sales</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\5-8\CoinToss\CoinToss\CoinToss.csproj">
+      <Project>{281010e9-4432-4c9f-8708-77071bcf552a}</Project>
+      <Name>CoinToss</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\5-9\Load Event\Load Event.csproj">
+      <Project>{cd92551d-0c96-490c-b20e-000f5b15bf68}</Project>
+      <Name>Load Event</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\EndingBalanceEnhanced\EndingBalanceEnhanced.csproj">
+      <Project>{536509c6-e43f-4f84-96ff-7e7dd2fb567a}</Project>
+      <Name>EndingBalanceEnhanced</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FriendFileEnhanced\FriendFileEnhanced.csproj">
+      <Project>{b425d0ef-fb11-426f-a0c9-342dc2c73a3d}</Project>
+      <Name>FriendFileEnhanced</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TotalSalesEnhanced\TotalSalesEnhanced.csproj">
+      <Project>{a11b08c2-1e27-49de-a4b2-c6c2d3a62510}</Project>
+      <Name>TotalSalesEnhanced</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
