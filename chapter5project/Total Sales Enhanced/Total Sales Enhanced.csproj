@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{75C185D9-E798-4963-A830-02066DF594FD}</ProjectGuid>
+    <ProjectGuid>{A03FD4F0-6C88-4B4F-B88E-7198B997723F}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>chapter5project</RootNamespace>
-    <AssemblyName>chapter5project</AssemblyName>
+    <RootNamespace>Total_Sales_Enhanced</RootNamespace>
+    <AssemblyName>Total Sales Enhanced</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -77,52 +77,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\..\5-1\Ending Balance\Ending Balance.csproj">
-      <Project>{ce3fce43-183a-4464-b2f1-5ebcee4484e3}</Project>
-      <Name>Ending Balance</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\5-3\Speed Converter\Speed Converter.csproj">
-      <Project>{9ccc1384-5624-4ec7-9fa2-012ed36c9d39}</Project>
-      <Name>Speed Converter</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\5-4\Friend File\Friend File.csproj">
-      <Project>{0a14e470-1e23-4436-be7e-a5e9862e2b9f}</Project>
-      <Name>Friend File</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\5-6\South America\South America.csproj">
-      <Project>{475452d1-1fcf-4ccf-8807-db12d2dfde90}</Project>
-      <Name>South America</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\5-7\Total Sales\Total Sales.csproj">
-      <Project>{c100fe3f-9f32-4f54-8ab8-e286f767b2cd}</Project>
-      <Name>Total Sales</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\5-9\Load Event\Load Event.csproj">
-      <Project>{cd92551d-0c96-490c-b20e-000f5b15bf68}</Project>
-      <Name>Load Event</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\CoinToss\CoinToss.csproj">
-      <Project>{9fa34c96-931b-4460-8603-981754c796a6}</Project>
-      <Name>CoinToss</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\EndingBalanceEnhanced\EndingBalanceEnhanced.csproj">
-      <Project>{536509c6-e43f-4f84-96ff-7e7dd2fb567a}</Project>
-      <Name>EndingBalanceEnhanced</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\FriendFileEnhanced\FriendFileEnhanced.csproj">
-      <Project>{b425d0ef-fb11-426f-a0c9-342dc2c73a3d}</Project>
-      <Name>FriendFileEnhanced</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\South America Enhanced\South America Enhanced.csproj">
-      <Project>{050d9da2-1f6f-44cd-9803-b133e7fc530f}</Project>
-      <Name>South America Enhanced</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Total Sales Enhanced\Total Sales Enhanced.csproj">
-      <Project>{a03fd4f0-6c88-4b4f-b88e-7198b997723f}</Project>
-      <Name>Total Sales Enhanced</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

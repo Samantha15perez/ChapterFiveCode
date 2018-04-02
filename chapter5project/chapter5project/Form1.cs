@@ -54,10 +54,10 @@ namespace chapter5project
         private void button8_Click(object sender, EventArgs e)
         {
             //opens up the project for 5-8
-            //CoinToss.Form1 form1 = new CoinToss.Form1();
+            CoinToss.Form1 form1 = new CoinToss.Form1();
+           
 
-
-            //form1.Show();
+            form1.Show();
         }
 
         private void button5_Click(object sender, EventArgs e)
@@ -82,10 +82,10 @@ namespace chapter5project
         private void button7_Click(object sender, EventArgs e)
         {
             //opens up the project for 5-7
-            TotalSalesEnhanced.Form1 form1 = new TotalSalesEnhanced.Form1();
+            Total_Sales_Enhanced.Form1 form1 = new Total_Sales_Enhanced.Form1();
 
 
-            //form1.Show();
+            form1.Show();
         }
 
         private void button4_Click(object sender, EventArgs e)
@@ -100,7 +100,9 @@ namespace chapter5project
         private void button9_Click(object sender, EventArgs e)
         {
             //opens up the project for 5-9
+            South_America_Enhanced.Form1 form1 = new South_America_Enhanced.Form1();
 
+            form1.Show();
         }
     }
 }
